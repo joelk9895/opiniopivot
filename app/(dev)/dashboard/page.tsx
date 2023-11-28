@@ -60,7 +60,6 @@ export default function Dashboard() {
   return (
     <DragDropContext onDragEnd={handleDragEnd}>
       <main className="flex flex-col items-center h-screen w-screen">
-        <h1 className="font-bold text-xl mt-10 mb-24">Opinio</h1>
         <div className="flex gap-10">
           {columns?.map((item: Column) => (
             <KanbanBoard key={item.id} heading={item} />

@@ -1,10 +1,9 @@
-import { ThemeLogo } from "./Components/Logo";
+import { ThemeLogo } from "./components/Logo";
 
 export default function Home() {
   return (
     <main className="flex flex-col h-screen w-100 justify-start items-center relative">
       <ThemeLogo />
-
       <h2 className="font-black text-6xl">
         Make your product customer centric
       </h2>

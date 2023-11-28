@@ -34,7 +34,6 @@ export default function Form() {
       setLoading(false);
     } catch (err) {
       console.error(err);
-      // Handle other errors here
     }
   };
 
